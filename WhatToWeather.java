@@ -41,11 +41,11 @@ public class WhatToWeather {
             System.out.println("Keep it thin, sunglasses");
         } else if (WeatherDescription.equals("Cloudy") && AvgTemp < 12){
             System.out.println("Any thick jacket");
-        } else if (WeatherDescription.equals("Cloudy") && AvgTemp >= 12) {
+        } else if (WeatherDescription.equals("Cloudy") && AvgTemp >= 12){
             System.out.println("Keep it thin");
         } else if (WeatherDescription.equals("Snowy") && AvgTemp < 5){
             System.out.println("Thick waterproof jacket");
-        } else if (WeatherDescription.equals("Snowy") && AvgTemp >= 5) {
+        } else if (WeatherDescription.equals("Snowy") && AvgTemp >= 5){
             System.out.println("Really?");
         }
     }
